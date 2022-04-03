@@ -1,0 +1,327 @@
+
+> react-contact-form@0.1.0 start /home/pat/bsrepo1
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-contact-form in the browser.
+
+  http://localhost:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+assets by path static/js/*.js 2.22 MiB
+  asset static/js/bundle.js 2.21 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.94 KiB [emitted] 1 related asset
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 458 bytes [emitted]
+cached modules 2.42 MiB (javascript) 31.7 KiB (runtime) [cached] 365 modules
+webpack 5.71.0 compiled successfully in 2376 ms
+Compiling...
+Failed to compile.
+
+src/ContactForm.js
+Syntax error: Unexpected token (28:1) (28:1)
+assets by status 6.94 KiB [cached] 1 asset
+assets by chunk 2.14 MiB (name: main)
+  asset static/js/bundle.js 2.14 MiB [emitted] (name: main) 1 related asset
+  asset main.0da14eb011f64d4de459.hot-update.js 1.75 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+assets by path *.json 738 bytes
+  asset asset-manifest.json 583 bytes [emitted]
+  asset main.0da14eb011f64d4de459.hot-update.json 155 bytes [emitted] [immutable] [hmr]
+asset index.html 1.67 KiB [emitted]
+Entrypoint main 2.14 MiB (2.13 MiB) = static/js/bundle.js 2.14 MiB main.0da14eb011f64d4de459.hot-update.js 1.75 KiB 2 auxiliary assets
+cached modules 2.35 MiB [cached] 343 modules
+runtime modules 31.7 KiB 16 modules
+javascript modules 1.59 KiB
+  ./src/App.js 1.56 KiB [code generated]
+  ./src/ContactForm.js 39 bytes [built] [code generated] [1 error]
+
+ERROR in ./src/ContactForm.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/pat/bsrepo1/src/ContactForm.js: Unexpected token (28:1)
+
+  26 | 			to={{
+  27 | 				pathname: 
+> 28 | 	};
+     | 	^
+  29 | 	return (
+  30 | 		<form onSubmit={handleSubmit}>
+  31 | 		<div>
+    at instantiate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3334:19)
+    at Object.unexpected (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3372:16)
+    at Object.parseExprAtom (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:13014:22)
+    at Object.parseExprAtom (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:8033:20)
+    at Object.parseExprSubscripts (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:12539:23)
+    at Object.parseUpdate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:12518:21)
+    at Object.parseMaybeUnary (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:12489:23)
+    at Object.parseMaybeUnaryOrPrivate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:12283:61)
+ @ ./src/App.js 5:0-40 12:35-46
+ @ ./src/index.js 7:0-24 11:33-36
+
+ERROR in src/ContactForm.js
+  Line 28:1:  Parsing error: Unexpected token (28:1)
+
+webpack 5.71.0 compiled with 2 errors in 2219 ms
+Compiling...
+Failed to compile.
+
+src/ContactForm.js
+Syntax error: Unexpected token (28:1) (28:1)
+
+src/index.js
+Syntax error: Missing semicolon. (1:5) (1:5)
+assets by chunk 359 KiB (name: main)
+  asset static/js/bundle.js 338 KiB [emitted] (name: main) 1 related asset
+  asset main.241cca39055f8bdc8b67.hot-update.js 21.2 KiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+assets by path *.json 9.7 KiB
+  asset main.241cca39055f8bdc8b67.hot-update.json 9.39 KiB [emitted] [immutable] [hmr]
+  asset asset-manifest.json 315 bytes [emitted]
+asset index.html 1.67 KiB [emitted]
+Entrypoint main 359 KiB (339 KiB) = static/js/bundle.js 338 KiB main.241cca39055f8bdc8b67.hot-update.js 21.2 KiB 2 auxiliary assets
+cached modules 249 KiB [cached] 78 modules
+runtime modules 28.4 KiB 13 modules
+./src/index.js 39 bytes [built] [code generated] [1 error]
+
+ERROR in ./src/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/pat/bsrepo1/src/index.js: Missing semicolon. (1:5)
+
+> 1 | mport React from 'react';
+    |      ^
+  2 | import ReactDOM from 'react-dom';
+  3 | import './index.css';
+  4 | import App from './App';
+    at instantiate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3334:19)
+    at Object.semicolon (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3995:10)
+    at Object.parseExpressionStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:15125:10)
+    at Object.parseExpressionStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:5848:18)
+    at Object.parseStatementContent (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:14676:19)
+    at Object.parseStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:14528:17)
+    at Object.parseStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:5822:24)
+    at Object.parseBlockOrModuleBlockBody (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:15167:25)
+
+ERROR in src/ContactForm.js
+  Line 28:1:  Parsing error: Unexpected token (28:1)
+
+src/index.js
+  Line 1:5:  Parsing error: Missing semicolon. (1:5)
+
+webpack 5.71.0 compiled with 2 errors in 459 ms
+
+> react-contact-form@0.1.0 start /home/pat/bsrepo1
+> react-scripts start
+
+Starting the development server...
+
+Failed to compile.
+
+src/index.js
+Syntax error: Missing semicolon. (1:5) (1:5)
+asset static/js/bundle.js 338 KiB [emitted] (name: main) 1 related asset
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 190 bytes [emitted]
+cached modules 249 KiB [cached] 78 modules
+runtime modules 28.4 KiB 13 modules
+./src/index.js 39 bytes [built] [1 error]
+
+ERROR in ./src/index.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/pat/bsrepo1/src/index.js: Missing semicolon. (1:5)
+
+> 1 | mport React from 'react';
+    |      ^
+  2 | import ReactDOM from 'react-dom';
+  3 | import './index.css';
+  4 | import App from './App';
+    at instantiate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3334:19)
+    at Object.semicolon (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3995:10)
+    at Object.parseExpressionStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:15125:10)
+    at Object.parseExpressionStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:5848:18)
+    at Object.parseStatementContent (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:14676:19)
+    at Object.parseStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:14528:17)
+    at Object.parseStatement (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:5822:24)
+    at Object.parseBlockOrModuleBlockBody (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:15167:25)
+
+ERROR in src/index.js
+  Line 1:5:  Parsing error: Missing semicolon. (1:5)
+
+webpack 5.71.0 compiled with 2 errors in 3456 ms
+Compiling...
+Failed to compile.
+
+src/ContactForm.js
+Syntax error: Unexpected token, expected "," (29:4) (29:4)
+assets by path static/js/*.js 2.22 MiB
+  asset static/js/bundle.js 2.22 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.94 KiB [emitted] 1 related asset
+assets by info 1.91 MiB [immutable]
+  asset main.4c4a7f80c1cb5ad57c23.hot-update.js 1.91 MiB [emitted] [immutable] [hmr] (name: main) 1 related asset
+  asset main.4c4a7f80c1cb5ad57c23.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 583 bytes [emitted]
+Entrypoint main 4.13 MiB (4.09 MiB) = static/js/bundle.js 2.22 MiB main.4c4a7f80c1cb5ad57c23.hot-update.js 1.91 MiB 2 auxiliary assets
+cached modules 2.4 MiB [cached] 346 modules
+runtime modules 31.7 KiB 16 modules
+javascript modules 13.9 KiB
+  ./src/index.js 2.6 KiB [built] [code generated]
+  ./node_modules/react-router-dom/index.js 11.3 KiB [code generated]
+  ./src/ContactForm.js 39 bytes [built] [1 error]
+
+ERROR in ./src/ContactForm.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/pat/bsrepo1/src/ContactForm.js: Unexpected token, expected "," (29:4)
+
+  27 | 			to={{
+  28 | 				pathname: MessageList
+> 29 | 				state: []
+     | 				^
+  30 | 			}}
+  31 | 		>
+  32 | 	};
+    at instantiate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3334:19)
+    at Object.unexpected (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3372:16)
+    at Object.expect (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:4001:28)
+    at Object.parseObjectLike (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:13481:14)
+    at Object.parseExprAtom (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:12889:23)
+    at Object.parseExprAtom (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:8033:20)
+    at Object.parseExprSubscripts (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:12539:23)
+    at Object.parseUpdate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:12518:21)
+ @ ./src/App.js 5:0-40 12:35-46
+ @ ./src/index.js 7:0-24 10:0-44 17:17-25 25:17-26 42:33-36
+
+ERROR in ./src/index.js 13:33-39
+export 'Switch' (imported as 'Switch') was not found in 'react-router-dom' (possible exports: BrowserRouter, HashRouter, Link, MemoryRouter, NavLink, Navigate, NavigationType, Outlet, Route, Router, Routes, UNSAFE_LocationContext, UNSAFE_NavigationContext, UNSAFE_RouteContext, createPath, createRoutesFromChildren, createSearchParams, generatePath, matchPath, matchRoutes, parsePath, renderMatches, resolvePath, unstable_HistoryRouter, useHref, useInRouterContext, useLinkClickHandler, useLocation, useMatch, useNavigate, useNavigationType, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams)
+
+ERROR in ./src/index.js 17:17-25
+export 'Homepage' (imported as 'Homepage') was not found in './App' (possible exports: default)
+
+ERROR in ./src/index.js 25:17-26
+export 'Aboutpage' (imported as 'Aboutpage') was not found in './App' (possible exports: default)
+
+ERROR in src/ContactForm.js
+  Line 29:4:  Parsing error: Unexpected token, expected "," (29:4)
+
+webpack 5.71.0 compiled with 5 errors in 2449 ms
+Compiling...
+Failed to compile.
+
+src/ContactForm.js
+Syntax error: Unterminated JSX contents. (75:9) (75:9)
+assets by status 6.94 KiB [cached] 1 asset
+assets by chunk 2.22 MiB (name: main)
+  asset static/js/bundle.js 2.22 MiB [emitted] (name: main) 1 related asset
+  asset main.b9132732e42e1c80187d.hot-update.js 369 bytes [emitted] [immutable] [hmr] (name: main) 1 related asset
+assets by path *.json 611 bytes
+  asset asset-manifest.json 583 bytes [emitted]
+  asset main.b9132732e42e1c80187d.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+asset index.html 1.67 KiB [emitted]
+Entrypoint main 2.22 MiB (2.19 MiB) = static/js/bundle.js 2.22 MiB main.b9132732e42e1c80187d.hot-update.js 369 bytes 2 auxiliary assets
+cached modules 2.42 MiB [cached] 348 modules
+runtime modules 31.7 KiB 16 modules
+./src/ContactForm.js 39 bytes [built] [1 error]
+
+ERROR in ./src/ContactForm.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/pat/bsrepo1/src/ContactForm.js: Unterminated JSX contents. (75:9)
+
+  73 | 		</div>
+  74 | 		<button type="submit">{status}</button>
+> 75 | 		</form>
+     | 		       ^
+  76 | 	);
+  77 | };
+  78 |
+    at instantiate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3334:19)
+    at Object.jsxReadToken (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:7626:20)
+    at Object.getTokenFromCode (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:8046:19)
+    at Object.getTokenFromCode (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:6180:20)
+    at Object.nextToken (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:2018:10)
+    at Object.next (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:1922:10)
+    at Object.eat (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:1927:12)
+    at Object.expect (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:4001:10)
+ @ ./src/App.js 5:0-40 12:35-46
+ @ ./src/index.js 7:0-24 10:0-44 17:17-25 25:17-26 42:33-36
+
+ERROR in ./src/index.js 13:33-39
+export 'Switch' (imported as 'Switch') was not found in 'react-router-dom' (possible exports: BrowserRouter, HashRouter, Link, MemoryRouter, NavLink, Navigate, NavigationType, Outlet, Route, Router, Routes, UNSAFE_LocationContext, UNSAFE_NavigationContext, UNSAFE_RouteContext, createPath, createRoutesFromChildren, createSearchParams, generatePath, matchPath, matchRoutes, parsePath, renderMatches, resolvePath, unstable_HistoryRouter, useHref, useInRouterContext, useLinkClickHandler, useLocation, useMatch, useNavigate, useNavigationType, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams)
+
+ERROR in ./src/index.js 17:17-25
+export 'Homepage' (imported as 'Homepage') was not found in './App' (possible exports: default)
+
+ERROR in ./src/index.js 25:17-26
+export 'Aboutpage' (imported as 'Aboutpage') was not found in './App' (possible exports: default)
+
+ERROR in src/ContactForm.js
+  Line 75:9:  Parsing error: Unterminated JSX contents. (75:9)
+
+webpack 5.71.0 compiled with 5 errors in 885 ms
+
+> react-contact-form@0.1.0 start /home/pat/bsrepo1
+> react-scripts start
+
+Starting the development server...
+
+Failed to compile.
+
+src/ContactForm.js
+Syntax error: Unterminated JSX contents. (75:9) (75:9)
+assets by path static/js/*.js 2.22 MiB
+  asset static/js/bundle.js 2.22 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.94 KiB [emitted] 1 related asset
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 458 bytes [emitted]
+cached modules 2.42 MiB [cached] 348 modules
+runtime modules 31.7 KiB 16 modules
+./src/ContactForm.js 39 bytes [built] [1 error]
+
+ERROR in ./src/ContactForm.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/pat/bsrepo1/src/ContactForm.js: Unterminated JSX contents. (75:9)
+
+  73 | 		</div>
+  74 | 		<button type="submit">{status}</button>
+> 75 | 		</form>
+     | 		       ^
+  76 | 	);
+  77 | };
+  78 |
+    at instantiate (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:72:32)
+    at constructor (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:358:12)
+    at Object.raise (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:3334:19)
+    at Object.jsxReadToken (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:7626:20)
+    at Object.getTokenFromCode (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:8046:19)
+    at Object.getTokenFromCode (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:6180:20)
+    at Object.nextToken (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:2018:10)
+    at Object.next (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:1922:10)
+    at Object.eat (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:1927:12)
+    at Object.expect (/home/pat/bsrepo1/node_modules/@babel/parser/lib/index.js:4001:10)
+ @ ./src/App.js 5:0-40 12:35-46
+ @ ./src/index.js 7:0-24 10:0-44 17:17-25 25:17-26 42:33-36
+
+ERROR in ./src/index.js 13:33-39
+export 'Switch' (imported as 'Switch') was not found in 'react-router-dom' (possible exports: BrowserRouter, HashRouter, Link, MemoryRouter, NavLink, Navigate, NavigationType, Outlet, Route, Router, Routes, UNSAFE_LocationContext, UNSAFE_NavigationContext, UNSAFE_RouteContext, createPath, createRoutesFromChildren, createSearchParams, generatePath, matchPath, matchRoutes, parsePath, renderMatches, resolvePath, unstable_HistoryRouter, useHref, useInRouterContext, useLinkClickHandler, useLocation, useMatch, useNavigate, useNavigationType, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams)
+
+ERROR in ./src/index.js 17:17-25
+export 'Homepage' (imported as 'Homepage') was not found in './App' (possible exports: default)
+
+ERROR in ./src/index.js 25:17-26
+export 'Aboutpage' (imported as 'Aboutpage') was not found in './App' (possible exports: default)
+
+ERROR in src/ContactForm.js
+  Line 75:9:  Parsing error: Unterminated JSX contents. (75:9)
+
+webpack 5.71.0 compiled with 5 errors in 4049 ms
